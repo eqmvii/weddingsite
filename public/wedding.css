@@ -14,10 +14,10 @@
   /* Standard syntax */ }
 
 .body-font-pair {
-  font-size: 26px !important;
-  font-weight: 700 !important;
+  font-size: 30px !important;
+  font-weight: 400 !important;
   font-family: 'Josefin Slab', serif;
-  line-height: 1em; }
+  line-height: 0.8em !important; }
 
 h1 {
   font-size: 64px; }

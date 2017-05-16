@@ -15,10 +15,10 @@ body {
 }
 
 .body-font-pair {
-  font-size: 26px !important;
-  font-weight: 700 !important;
+  font-size: 30px !important;
+  font-weight: 400 !important;
   font-family: 'Josefin Slab', serif;
-  line-height: 1em;
+  line-height: 0.8em !important;
 }
 
 h1 {
@@ -58,7 +58,7 @@ a:active {
 }
 
 #mymain {
-  background-color: white;
+    background-color: white;
     border: 2px solid #bbb;
     border-radius: 8px;
     padding: 20px;
