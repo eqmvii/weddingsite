@@ -1,7 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
 body {
-      background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(red, yellow, green); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(red, yellow, green); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(red, yellow, green); /* Standard syntax */
+  color: black;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 18px !important;
 }
+
+/* Google map container, per google maps API */
+#map {
+  height: 320px;
+  width: 100%;
+  }
+
+#top-image {
+  margin-top: 20px;
+}
+
+#mymain {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 700px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.morepics {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 6px;
+    width: 250px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Visual aids for development only */
+/*
+.col-xs-4 {
+  outline: 1px solid black !important;
+}
+
+.container {
+  outline: 1px solid black;
+}
+*/

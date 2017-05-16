@@ -35,3 +35,7 @@ Step by step:
 (11) Add webpack dev server
 
 -> Change contentbase to the public folder
+
+-> Add dev server options, ensure watch content base is true
+
+-> Ensure content base is its own folder or else there could be issues

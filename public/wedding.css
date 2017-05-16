@@ -1,2 +1,37 @@
-body {
-  background-color: blue; }
+@import url(https://fonts.googleapis.com/css?family=Berkshire+Swash);body {
+  color: black;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 18px !important; }
+
+/* Google map container, per google maps API */
+#map {
+  height: 320px;
+  width: 100%; }
+
+#top-image {
+  margin-top: 20px; }
+
+#mymain {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 700px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#thering {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+/* Visual aids for development only */
+/*
+.col-xs-4 {
+  outline: 1px solid black !important;
+}
+
+.container {
+  outline: 1px solid black;
+}
+*/

@@ -17,15 +17,101 @@
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="jumbotron text-center">
-                <h1> Liana and Eric gettin' MARRIED </h1>
-                <p>You should come!</p>
+
+        <div class="row" id="pony">
+            <div class="col-xs-12" id="top-image">
+                <img src="./img/wedding.site720h.jpg" alt="Eric and Liana" class="img-responsive center-block" id="mymain" />
             </div>
         </div>
         <!-- end first row -->
+
+        <div class="row text-center">
+            <br />
+            <br />
+            <h2>Save the Date!</h2>
+            <br />
+            <br />
+        </div>
+        <!-- end text row -->
+
+        <div class="row text-center">
+
+            <div class="col-xs-4 col-xs-offset-2">
+                <br />
+                <br />
+                <br />
+                <p>Executive Banquet &amp; Conference</p>
+                <p>205 Executive Drive</p>
+                <p>Newark, DE 19702</p>
+                <a href="https://www.google.com/maps/dir//205+Executive+Dr,+Newark,+DE+19702/@39.615607,-75.7504107,17z/data=!4m16!1m7!3m6!1s0x89c7a844af27cb05:0x36405520e856e6ad!2s205+Executive+Dr,+Newark,+DE+19702!3b1!8m2!3d39.615607!4d-75.748222!4m7!1m0!1m5!1m1!1s0x89c7a844af27cb05:0x36405520e856e6ad!2m2!1d-75.748222!2d39.615607">Get directions</a>
+                </p>
+            </div>
+
+            <div class="col-xs-4">
+            </div>
+
+            <div class="col-xs-4">
+                <div id="map"></div>
+            </div>
+
+        </div>
+        <!-- end directions row -->
+
+        <div class="row text-center">
+            <br />
+            <br />
+            <h2>September 23, 2017</h2>
+            <br />
+            <br />
+        </div>
+        <!-- end date row -->
+
+        <div class="row text-center">
+            <div class="col-xs-4">
+                <img src="./img/ourfaces.jpg" alt="Eric and Liana" class="img-responsive center-block morepics" id="thering" />
+            </div>
+
+            <div class="col-xs-4">
+                <img src="./img/ring.jpg" alt="Eric and Liana" class="img-responsive center-block morepics" id="thering" />
+            </div>
+
+            <div class="col-xs-4">
+                <img src="./img/usroo.jpg" alt="Eric and Liana" class="img-responsive center-block morepics" id="thering" />
+            </div>
+
+
+        </div>
+        <!-- end picture row -->
+
+                <div class="row text-center">
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+        <!-- end footer row -->
+
+
+
     </div>
     <!-- end container -->
+    <script>
+        function initMap() {
+            var venue = { lat: 39.615830, lng: -75.748260 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: venue,
+                scrollwheel: false,
+                zoom: 9
+            });
+            var marker = new google.maps.Marker({
+                position: venue,
+                map: map
+            });
+        } // close function here
+    </script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9LyCmC6m78DoWS-cRB3y4zem8GlLHfiA&callback=initMap">
+
+    </script>
 
 </body>
 
