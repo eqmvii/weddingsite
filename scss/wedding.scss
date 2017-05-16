@@ -1,15 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+$bgstart: white;
+$bgend: #34823a;
 
 body {
-  color: black;
-  font-family: 'Berkshire Swash', cursive;
-  font-size: 18px !important;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 24px !important;
+  text-shadow: 1px 1px #172318;
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient($bgstart, $bgend); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($bgstart, $bgend); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($bgstart, $bgend); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($bgstart, $bgend); /* Standard syntax */
+
+}
+
+h1 {
+  font-size: 64px;
+}
+
+/* unvisited link */
+a:link {
+    color: #adbfff;
+}
+
+/* visited link */
+a:visited {
+    color: #5b7fff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #5b7fff;
+}
+
+/* selected link */
+a:active {
+    color: #5b7fff;
 }
 
 /* Google map container, per google maps API */
 #map {
   height: 320px;
   width: 100%;
+  border: 1px solid black;
+  border-radius: 8px;
   }
 
 #top-image {
