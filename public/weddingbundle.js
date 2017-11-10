@@ -97,7 +97,7 @@ function countdown() {
     var mil_to_seconds = 1000;
     var now = new Date();
     var wedding_date = new Date("September 23, 2017 00:00:00");
-    var dif = wedding_date - now;
+    var dif = now - wedding_date;
     var days = Math.floor(dif / mil_to_days);
     var hours = dif - days * mil_to_days;
     hours = Math.floor(hours / mil_to_hours);
