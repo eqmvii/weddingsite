@@ -1,5 +1,9 @@
 # weddingsite
 
+A simple "save the date" website. Updated to show time since the wedding, since it already happened!
+
+# Dev environment notes
+
 Step by step: 
 
 (1) git init
